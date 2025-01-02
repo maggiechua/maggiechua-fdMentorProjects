@@ -39,14 +39,14 @@ While I have done some HTML/CSS in the past, I wouldn't say I felt particularly 
 ```html
 <h1>Some HTML code I'm proud of:</h1>
 <div class="container">
-    <img src="images/image-qr-code.png" alt="a QR code pattern to visit the Frontend Mentor site">
+    <img src="qrCode/images/image-qr-code.png" alt="a QR code pattern to visit the Frontend Mentor site">
     <h3 class="text">Improve your front-end skills by building projects</h3>
     <p class="text">Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
-    <div class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="https://github.com/maggiechua" target="_blank">Maggie Chua</a>.
-    </div>
-  </div>
+</div>
+<div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/maggiechua" target="_blank">Maggie Chua</a>.
+</div>
 ```
 For instance, I didn't know about <div> and how you could use it to separate/group elements, which if done well, makes it a lot easier to style them later down the line. (I know it's basically all my index.html code, but it felt necessary to paste it to get my point across haha).
 
@@ -54,6 +54,10 @@ As a result, I think the way I structured my HTML made it easier to select items
 
 ```css
 .container {
+    position: absolute;
+    height: 525px;
+    width: 350px;
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -61,9 +65,6 @@ As a result, I think the way I structured my HTML made it easier to select items
     align-content: flex-start;
     align-items: center;
     box-sizing: border-box;
-    height: 20%;
-    width: 45%;
-    margin: 0 auto;
     border-radius: 15px;
     background-color: white;
 }
