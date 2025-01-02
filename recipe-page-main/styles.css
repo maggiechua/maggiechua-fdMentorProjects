@@ -1,0 +1,104 @@
+body {
+    background-color: hsl(30, 54%, 90%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    margin: 10% 25%;
+    border-radius: 10px;
+    background-color: hsl(0, 0%, 100%);
+}
+
+hr {
+    height: 1px;
+    color: hsl(30, 18%, 87%);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.prep_time {
+    background-color: hsl(330, 100%, 98%);
+    padding: 5px 15px;
+    border-radius: 10px;
+}
+
+.prep_time h3 {
+    color: hsl(332, 51%, 32%);
+    font-family: Outfit;
+}
+
+img {
+    border-radius: 10px;
+    max-width: 100%;
+}
+
+h1, h2, h3 {
+    font-family: Young-Serif;
+}
+
+p, ul, ol, table {
+    font-family: Outfit;
+    color: hsl(30, 10%, 34%);
+    font-size: 16px;
+}
+
+h2, h3, th {
+    color: hsl(14, 45%, 36%);
+}
+
+::marker {
+    color: hsl(14, 45%, 36%);
+    padding-right: 50px;
+}
+
+ul ::marker {
+    font-weight: 100;
+}
+
+ol ::marker {
+    font-weight: 650;
+}
+
+li {
+    margin: 25px auto;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    border-spacing: 20px;
+}
+
+tr {
+    border-bottom-style: solid;
+    border-bottom-color: hsl(30, 18%, 87%);
+    border-bottom-width: thin;
+}
+
+.outfit-text {
+    font-family: "Outfit", serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+  }
+
+.young-serif-regular {
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.attribution { 
+    font-family: Outfit;
+    font-size: 11px; 
+    text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
