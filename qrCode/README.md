@@ -71,12 +71,12 @@ As a result, I think the way I structured my HTML made it easier to select items
 Overall, I think the biggest thing I took away was that frontend is more interesting and fun than I had originally thought. Since I don't have a lot of experience working on such projects, it was a pretty fun first project and I think I learned a fair bit. 
 
 ### Continued development
-
+#### v1
 I think that for future projects, I still need to work on understanding layout properties, especially when to use flexbox vs grid as well as implementing the many functionalities that are offered by CSS. 
 
-One thing I wasn't able to figure out was how to center the entire object in the center of the screen, both horizontally and vertically. So for the future, I definitely want to build my understanding on formatting objects on different levels within an HTML DOM, especially when nested within layouts. I also want to improve my understanding of positioning and when it would make sense to use absolute vs relative vs sticky, etc. 
+One thing I wasn't able to figure out was how to center the entire object in the center of the screen, both horizontally and vertically. So for the future, I definitely want to build my understanding on formatting objects on different levels within an HTML DOM, especially when nested within layouts. I also want to improve my understanding of positioning and when it would make sense to use absolute vs relative vs sticky, etc. I also realized upon observation, that it doesn't exactly format well on mobile or full-screen on desktop, since I was primarily copying it split screen TT. So, unfortunately, I will probably need to keep playing around with it.  
 
-I plan to keep going through web.dev's HTML/CSS articles as well as working on other frontendmentor projects along the way. 
+I plan to keep going through web.dev's HTML/CSS articles as well as working on other frontendmentor projects along the way after I finalize this one. 
 
 ### Useful resources
 I primarily relied on the web.dev articles and all the resources they linked in there, so putting them here would be redundant. But definitely, found the articles on layouts, flexbox, margins, quite useful. 
