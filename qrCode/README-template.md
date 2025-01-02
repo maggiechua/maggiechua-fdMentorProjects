@@ -24,7 +24,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [https://maggiechua.github.io/maggiechua-fdMentorProjects/]
 
 ## My process
 
@@ -83,11 +83,7 @@ One thing I wasn't able to figure out was how to center the entire object in the
 I plan to keep going through web.dev's HTML/CSS articles as well as working on other frontendmentor projects along the way. 
 
 ### Useful resources
-
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
+I primarily relied on the web.dev articles and all the resources they linked in there, so putting them here would be redundant. But definitely, found the articles on layouts, flexbox, margins, quite useful. 
 
 ## Author
 
