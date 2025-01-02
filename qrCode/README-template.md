@@ -91,7 +91,7 @@ I plan to keep going through web.dev's HTML/CSS articles as well as working on o
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
+- Github - [Maggie Chua](https://github.com/maggiechua)
 - Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
 
 **Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
