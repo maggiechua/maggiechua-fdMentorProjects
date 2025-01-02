@@ -85,6 +85,10 @@ So, I decided to look at this again and I realized that I had to fix the positio
 The strange thing is that my github deployed page of this project doesn't show the image even though when I use the LiveServer option through VSCode it displays the project, just fine? 
 
 Edit: The strange thing is that it doesn't work in Chrome, but it deploys just fine in FireFox and on mobile? And the deployment issue is simply the QR Code image showing up, so I don't think it's something I'm doing wrong. 
+Edit 2: Now it's working!
+
+#### final audit (from Frontend Mentor)
+Based on their review of my code solution, the main thing that is off is that my qr code is not centered both horizontally and vertically. Otherwise, it is pretty close. The other thing mentioned in their audit is that I was missing landmarks (basically role="") items for accessibility, and that all my <div> elements especially should've been assigned something. Also, I forgot to give my page an <h1> element, so the main text under the qr code, should've been an h1 element instead of being labelled as h3, since it was the primary content of the page after all. 
 
 ### Useful resources
 I primarily relied on the web.dev articles and all the resources they linked in there, so putting them here would be redundant. But definitely, found the articles on layouts, flexbox, margins, quite useful. 
