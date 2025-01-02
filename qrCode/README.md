@@ -78,6 +78,11 @@ One thing I wasn't able to figure out was how to center the entire object in the
 
 I plan to keep going through web.dev's HTML/CSS articles as well as working on other frontendmentor projects along the way after I finalize this one. 
 
+#### v2
+So, I decided to look at this again and I realized that I had to fix the positioning. I still don't quite understand how to decide what would be the best way to set units for a project, so I ended up defaulting to the 'simplest', albeit not as effective option. I realized that I should use a relative position for the parent and an absolute for the qrCode container as it would allow for it to be centered based on the positioning of its parent. I also used a flexbox for the items. Then, I used margins to push the text to right under the container (couldn't figure out how to do it without brute forcing it, but I think with future projects, I'll have to really dive into the documentation to find more effective ways of handling things).
+
+The strange thing is that my github deployed page of this project doesn't show the image even though when I use the LiveServer option through VSCode it displays the project, just fine? 
+
 ### Useful resources
 I primarily relied on the web.dev articles and all the resources they linked in there, so putting them here would be redundant. But definitely, found the articles on layouts, flexbox, margins, quite useful. 
 
