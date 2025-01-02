@@ -84,8 +84,14 @@ So, I decided to look at this again and I realized that I had to fix the positio
 
 The strange thing is that my github deployed page of this project doesn't show the image even though when I use the LiveServer option through VSCode it displays the project, just fine? 
 
+Edit: The strange thing is that it doesn't work in Chrome, but it deploys just fine in FireFox and on mobile? And the deployment issue is simply the QR Code image showing up, so I don't think it's something I'm doing wrong. 
+
 ### Useful resources
 I primarily relied on the web.dev articles and all the resources they linked in there, so putting them here would be redundant. But definitely, found the articles on layouts, flexbox, margins, quite useful. 
+
+Since my biggest struggle was positioning, I found these resources especially useful for figuring it out and understanding how to use CSS functions a little better: 
+- W3 Schools: [CSS Layout - The position Property](https://www.w3schools.com/css/css_positioning.asp)
+- FreeCodeCamp: [CSS Positioning - Position Absolute and Relative example](https://www.freecodecamp.org/news/css-positioning-position-absolute-and-relative/)
 
 ## Author
 - Github - [Maggie Chua](https://github.com/maggiechua)
