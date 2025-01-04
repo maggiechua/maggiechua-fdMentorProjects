@@ -1,3 +1,5 @@
+/*modified according to feedback given by reviewer, where we can
+use grid to center the content*/
 body {
     background-color: hsl(212, 45%, 89%);
     display: grid;
@@ -36,7 +38,7 @@ body {
     margin-bottom: -20px;
 }
 
-.container h3, p {
+.container h1, p {
     text-align: center;
     margin-bottom: 5px;
 }
@@ -49,7 +51,7 @@ body {
     max-width: 70%;
 }
 
-.container h3 {
+.container h1 {
     color: hsl(218, 44%, 22%);
     font-size: 25px;
     font-weight: 700;
