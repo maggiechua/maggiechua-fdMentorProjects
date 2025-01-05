@@ -1,73 +1,83 @@
-/*modified according to feedback given by reviewer, where we can
-use grid to center the content*/
+h1:hover {
+    color:hsl(47, 88%, 63%);
+    cursor: pointer;
+}
+
 body {
-    background-color: hsl(212, 45%, 89%);
+    font-family: Figtree;
+    background-color: hsl(47, 88%, 63%);
     display: grid;
     place-items: center;
     height: 100vh;
 }
 
-.outfit-text {
-  font-family: "Outfit", serif;
-  font-optical-sizing: auto;
-  font-weight: 100;
-  font-style: normal;
+.container, img {
+    border-radius: 20px;
 }
 
 .container {
-    position: absolute;
-    height: 525px;
-    width: 350px;
-    margin: 0 auto;
+    background-color: hsl(0, 0%, 100%);
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
-    align-self: center;
-    align-content: flex-start;
-    align-items: center;
-    box-sizing: border-box;
-    border-radius: 15px;
-    background-color: white;
+    padding: 20px;
+    margin: auto 40%;
+    border: solid;
+    border-width: 1.5px;
+    box-shadow: 10px 10px black;
 }
 
-.container img {
-    border-radius: 10px;
-    transform: scale(0.9);
-    max-width: 100%;
-    height: auto;
-    margin-bottom: -20px;
+.tags {
+    margin-bottom: -10px;
+    color: hsl(0, 0%, 7%);
+    font-size: 14px;
 }
 
-.container h1, p {
-    text-align: center;
-    margin-bottom: 5px;
+.learning {
+    display: flex;
+    background-color: hsl(0, 0%, 100%);
+    margin-bottom: -15px;
 }
 
-.container p { 
-    color: hsl(216, 15%, 48%);
-    font-size: 15px;
-    font-weight: 400;
-    font-family: Outfit;
-    max-width: 70%;
+.learning > p:first-of-type {
+    background-color: hsl(47, 88%, 63%);
+    font-weight: 800;
+    padding: 5px 10px;
+    border-radius: 5px;
 }
 
-.container h1 {
-    color: hsl(218, 44%, 22%);
+h1 {
+    font-weight: 800;
     font-size: 25px;
-    font-weight: 700;
-    font-family: Outfit;
-    max-width: 85%;
+}
+
+.course_content > p {
+    font-size: 16px;
+    color: hsl(0, 0%, 42%);
+}
+
+.creator {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    margin: -10px;
+}
+
+.creator > img {
+    scale: 0.6;
 }
 
 .attribution { 
-    margin-top: 600px;
-    font-family: Outfit;
     font-size: 11px; 
-    text-align: center;
-    margin-bottom: 10px; 
+    text-align: center; 
 }
-
+    
 .attribution a { 
     color: hsl(228, 45%, 44%); 
 }
 
+.figtree-text {
+    font-family: "Figtree", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+  }
