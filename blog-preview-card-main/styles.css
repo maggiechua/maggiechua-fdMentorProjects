@@ -1,0 +1,83 @@
+h1:hover {
+    color:hsl(47, 88%, 63%);
+    cursor: pointer;
+}
+
+body {
+    font-family: Figtree;
+    background-color: hsl(47, 88%, 63%);
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+
+.container, img {
+    border-radius: 20px;
+}
+
+.container {
+    background-color: hsl(0, 0%, 100%);
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin: auto 40%;
+    border: solid;
+    border-width: 1.5px;
+    box-shadow: 10px 10px black;
+}
+
+.tags {
+    margin-bottom: -10px;
+    color: hsl(0, 0%, 7%);
+    font-size: 14px;
+}
+
+.learning {
+    display: flex;
+    background-color: hsl(0, 0%, 100%);
+    margin-bottom: -15px;
+}
+
+.learning > p:first-of-type {
+    background-color: hsl(47, 88%, 63%);
+    font-weight: 800;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+h1 {
+    font-weight: 800;
+    font-size: 25px;
+}
+
+.course_content > p {
+    font-size: 16px;
+    color: hsl(0, 0%, 42%);
+}
+
+.creator {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    margin: -10px;
+}
+
+.creator > img {
+    scale: 0.6;
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+    
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+.figtree-text {
+    font-family: "Figtree", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+  }
